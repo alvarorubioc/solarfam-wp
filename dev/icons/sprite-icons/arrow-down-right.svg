@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>01 Fragments / Icons / 32px / Arrow-down-right / Dark</title>
+    <desc>Created with Sketch.</desc>
+    <g id="01-Fragments-/-Icons-/-32px-/-Arrow-down-right-/-Dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow-down-right" transform="translate(9.000000, 9.000000)" fill="#1A1A1A">
+            <path d="M0.292893219,1.70710678 C-0.0976310729,1.31658249 -0.0976310729,0.683417511 0.292893219,0.292893219 C0.683417511,-0.0976310729 1.31658249,-0.0976310729 1.70710678,0.292893219 L13.7071068,12.2928932 C14.0976311,12.6834175 14.0976311,13.3165825 13.7071068,13.7071068 C13.3165825,14.0976311 12.6834175,14.0976311 12.2928932,13.7071068 L0.292893219,1.70710678 Z" id="Shape"></path>
+            <path d="M12,12 L12,4 C12,3.44771525 12.4477153,3 13,3 C13.5522847,3 14,3.44771525 14,4 L14,13 C14,13.5522847 13.5522847,14 13,14 L4,14 C3.44771525,14 3,13.5522847 3,13 C3,12.4477153 3.44771525,12 4,12 L12,12 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

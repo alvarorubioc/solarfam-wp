@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>01 Fragments / Icons / 32px / Activity / Dark</title>
+    <desc>Created with Sketch.</desc>
+    <g id="01-Fragments-/-Icons-/-32px-/-Activity-/-Dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="activity" transform="translate(5.000000, 6.000000)" fill="#1A1A1A">
+            <path d="M14,15.8377223 L16.0513167,9.68377223 C16.1874307,9.27543009 16.5695696,9 17,9 L21,9 C21.5522847,9 22,9.44771525 22,10 C22,10.5522847 21.5522847,11 21,11 L17.7207592,11 L14.9486833,19.3162278 C14.6447845,20.2279241 13.3552155,20.2279241 13.0513167,19.3162278 L8,4.16227766 L5.9486833,10.3162278 C5.81256925,10.7245699 5.43043041,11 5,11 L1,11 C0.44771525,11 0,10.5522847 0,10 C0,9.44771525 0.44771525,9 1,9 L4.27924078,9 L7.0513167,0.683772234 C7.35521547,-0.227924078 8.64478453,-0.227924078 8.9486833,0.683772234 L14,15.8377223 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

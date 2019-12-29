@@ -1,0 +1,40 @@
+.sf-card {
+    background: #FAFAFA;
+    border-radius: $space__unit;
+    border: 1px solid #f1f1f1;
+    margin-bottom: $space-xs;
+    box-shadow: 0 0 0 1px rgba(50,50,50,0.04), 0 1px 3px 0 rgba(50,50,50,0.08), 0 16px 24px 0 rgba(50,50,50,0.06);
+    position: relative;
+    
+    &:hover {
+        box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.20);
+    }
+
+    .sf-card-content {
+        padding: $space-xs;
+        .text-h4 { margin-top: 0; }
+        p { margin-bottom: 0;} 
+    }
+
+    .sf-card-image { 
+        img {
+            border-radius: $space__unit $space__unit 0 0;
+            width: 100%;
+        }
+    }
+
+    .sf-card-tag {
+        position: absolute;
+        top: $space__unit;
+        left: $space__unit;
+        color: white;
+        background: $color__primary;
+        border-radius: $border__radius;
+        padding: 0.25em .5em;
+        line-height: 1;
+
+        a {
+            color: white;
+        }
+    }
+}

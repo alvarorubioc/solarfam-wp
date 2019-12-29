@@ -1,0 +1,71 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	color: $color__text-main;
+	border: 1px solid $color__bg-grey-ligth;
+	border-radius: $border__radius;
+	padding: 3px;
+	width: 100%;
+
+	&:focus {
+		color: $color__accent;
+	}
+}
+
+input [type="checkbox"], [type="radio"] {
+    box-sizing: border-box;
+	padding: .5em;
+	width: 24px !important;
+	height: 24px;
+	border-color: white;
+}
+input[type="submit"] {
+	font-size: 100%;
+}
+
+select {
+	border: 1px solid $color__bg-grey;
+}
+
+label {
+	font-size: 80%;
+}
+
+textarea {
+	width: 100%;
+}
+
+// styles for contanct form 7
+
+span.wpcf7-not-valid-tip {
+    color: white;
+    font-size: 1em;
+    font-weight: normal;
+    display: block;
+
+}
+
+.wpcf7-list-item-label {
+	padding-left: .25em;
+}
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
+	border: 2px solid $color__warning;
+	border-radius: $space__unit;
+}
+
+span.wpcf7-list-item {
+    display: contents;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Editable" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CALCULADORA" transform="translate(-660.000000, -1265.000000)">
+            <g id="Tipo-de-cubierta" transform="translate(121.000000, 1184.000000)">
+                <g id="Group-10" transform="translate(540.000000, 82.000000)">
+                    <circle id="Oval" stroke="#0249B3" cx="16" cy="16" r="16"></circle>
+                    <g id="01-Fragments-/-Icons-/-32px-/-Check-/-Dark" fill="#0249B3">
+                        <g id="check" transform="translate(7.000000, 9.000000)">
+                            <path d="M6,10.5857864 L16.2928932,0.292893219 C16.6834175,-0.0976310729 17.3165825,-0.0976310729 17.7071068,0.292893219 C18.0976311,0.683417511 18.0976311,1.31658249 17.7071068,1.70710678 L6.70710678,12.7071068 C6.31658249,13.0976311 5.68341751,13.0976311 5.29289322,12.7071068 L0.292893219,7.70710678 C-0.0976310729,7.31658249 -0.0976310729,6.68341751 0.292893219,6.29289322 C0.683417511,5.90236893 1.31658249,5.90236893 1.70710678,6.29289322 L6,10.5857864 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

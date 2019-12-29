@@ -1,0 +1,110 @@
+a.btn, .btn, button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	display: inline-flex;
+	position: relative;
+	white-space: nowrap;
+	text-decoration: none;
+	line-height: 1;
+	border-radius: $border__radius;
+	font-weight: bold;
+	transition: .2s;
+	border: 0;
+
+	&:active {
+		transition: none;
+	}
+
+	.icon {
+		/* icon inherits color of button label */
+		color: inherit;
+		flex-shrink: 0;
+	}
+}
+	
+/* Main buttons */
+a.btn--primary, .btn--primary {
+	background-color: $color__primary;
+	color: $color__white;
+	@include fontSmooth;
+
+	&:hover {
+		background-color: $color__accent;
+	}
+}
+
+a.btn--secondary, .btn--secondary {
+	// subtle version, used for secondary actions or in combo with primary/accent button
+	background-color: $color__secondary;
+	color: $color__white;
+	&:active {
+		background-color: var(--btn-secondary-active);
+	}
+}
+
+a.btn--accent, .btn--accent {
+	// used to draw special attention to the button (e.g. destructive actions)
+	background-color: $color__accent;
+	color: white;
+	@include fontSmooth;
+
+	&:hover {
+		background-color: $color__primary;
+		color: white;
+	}
+
+	&:active {
+		background-color: $color__primary;
+	}
+}
+
+/* feedback */
+.btn[disabled] {
+	cursor: not-allowed;
+	background-color: var(--btn-disabled-bg);
+	color: var(--btn-disabled-label);
+	box-shadow: none;
+	opacity: 0.6;
+
+	&:visited {
+		color: var(--btn-disabled-label);
+	}
+}
+
+/* button size */
+.a.btn--sm, .btn--sm {
+	padding: $space-xxs $space-xs;
+}
+
+a.btn--md, .btn--md {
+	padding: $space__unit $space-md;
+}
+
+a.btn--lg, .btn--lg {
+	padding: $space__unit $space-md;
+	font-size: 1.25em;
+}
+
+.btn--full {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+/* buttons group */
+.btns {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: calc(-1 * var(--space-xs));
+
+	> * {
+		margin-right: var(--space-xs);
+		margin-bottom: var(--space-xs);
+
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+}
+

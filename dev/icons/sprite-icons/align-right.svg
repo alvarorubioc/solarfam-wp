@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>01 Fragments / Icons / 32px / Align-right / Dark</title>
+    <desc>Created with Sketch.</desc>
+    <g id="01-Fragments-/-Icons-/-32px-/-Align-right-/-Dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="align-right" transform="translate(6.000000, 9.000000)" fill="#1A1A1A">
+            <path d="M19,4 C19.5522847,4 20,4.44771525 20,5 C20,5.55228475 19.5522847,6 19,6 L5,6 C4.44771525,6 4,5.55228475 4,5 C4,4.44771525 4.44771525,4 5,4 L19,4 Z" id="Shape"></path>
+            <path d="M19,0 C19.5522847,0 20,0.44771525 20,1 C20,1.55228475 19.5522847,2 19,2 L1,2 C0.44771525,2 0,1.55228475 0,1 C0,0.44771525 0.44771525,0 1,0 L19,0 Z" id="Shape"></path>
+            <path d="M19,8 C19.5522847,8 20,8.44771525 20,9 C20,9.55228475 19.5522847,10 19,10 L1,10 C0.44771525,10 0,9.55228475 0,9 C0,8.44771525 0.44771525,8 1,8 L19,8 Z" id="Shape"></path>
+            <path d="M19,12 C19.5522847,12 20,12.4477153 20,13 C20,13.5522847 19.5522847,14 19,14 L5,14 C4.44771525,14 4,13.5522847 4,13 C4,12.4477153 4.44771525,12 5,12 L19,12 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
