@@ -15,7 +15,7 @@
                             </svg>
                         </div>    
                         <h3 class="text-h4">Instaladores de paneles solares de alto rendimiento</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
+                        <p>Nos encargamos de la solicitud de la licencia de obra y de la instalación de los módulos productores de energía, los inversores, la estructura de anclaje sobre la cubierta y el cableado eléctrico y protecciones hasta punto de conexión en la red interior en baja tensión.</p>  
                     </div>    
                 </div>    
             </div>
@@ -28,7 +28,7 @@
                             </svg>
                         </div> 
                         <h3 class="text-h4">Seguro de garantía de nuestras intalaciones solares fotovoltaicas</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>Garantía de potencia de los módulos de 25 años y garantía de la instalación, durante los 6 primeros. En los proyectos llave en mano nos ocupamos de la legalización de instalaciones de energía renovable y la tramitación para la venta de la energía excedente.</p>
                     </div>    
                 </div>    
             </div>
@@ -41,7 +41,7 @@
                             </svg>
                         </div> 
                         <h3 class="text-h4">Financiación de la instalación solar fotovoltaica</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>   
+                        <p>Contamos con líneas de financiación en condiciones preferentes con distintas identidades bancarias para la realización de estas inversiones (supeditadas a la aprobación definitiva del Órgano Competente).</p>   
                     </div>    
                 </div>    
             </div>
@@ -54,7 +54,7 @@
                             </svg>
                         </div> 
                         <h3 class="text-h4">Mantenimiento y reparación de las placas solares</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+                        <p>Contrato de mantenimiento preventivo y correctivo durante los 10 primeros años. Contarás además con equipos de monitorización para controlar el funcionamiento y la producción de tu instalación desde tu ordenador o teléfono móvil.</p> 
                     </div>    
                 </div>    
             </div>

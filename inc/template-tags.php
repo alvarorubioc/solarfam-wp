@@ -27,7 +27,7 @@ if ( ! function_exists( 'solarfam_posted_on' ) ) :
 		$posted_on = sprintf(
 			/* translators: %s: post date. */
 			esc_html_x( 'Publicado el %s', 'post date', 'solarfam' ),
-			'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
+			'<span>' . $time_string . '</span>'
 		);
 
 		echo '<span class="posted-on">' . $posted_on . '</span>'; // WPCS: XSS OK.
@@ -97,7 +97,7 @@ if ( ! function_exists( 'solarfam_entry_footer' ) ) :
 				sprintf(
 					wp_kses(
 						/* translators: %s: post title */
-						__( 'Leave a Comment<span class="screen-reader-text"> on %s</span>', 'solarfam' ),
+						__( 'Publicar comentario<span class="screen-reader-text"> en %s</span>', 'solarfam' ),
 						array(
 							'span' => array(
 								'class' => array(),

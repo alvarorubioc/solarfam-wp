@@ -15,3 +15,14 @@ a {
 		outline: 0;
 	}
 }
+
+.white {
+	color: #ffffff;
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__link;
+	}
+}
+
+.ofuscado:hover{ cursor: pointer; }

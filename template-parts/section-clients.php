@@ -10,7 +10,6 @@
                         echo '<p class="text-h2">Empresas que se han sumado a la energía solar fotovoltaica</p>';
                     }
                 ?>
-                <p class="big">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit…</p>
             </div>
             <div class="col-xs-12 col-md-6">
                 <div class="row">

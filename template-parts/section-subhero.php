@@ -19,11 +19,13 @@
                             <?php if ( $img_cardhome_1 ) { ?>
                                 <?php echo wp_get_attachment_image( $img_cardhome_1, 'img-card' ); ?>
                             <?php } ?>
-                            <div class="icon-circle-bg"> 
-                                <svg class="icon" width="32" height="32" viewBox="0 0 32 32">
-                                    <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/icons/sprite-icons.svg#arrow-right" />
-                                </svg>
-                            </div> 
+                            <span class="ofuscado" onclick="location.href='<?php the_sub_field( 'link_cardhome_1' ); ?>'">
+                                <div class="icon-circle-bg"> 
+                                    <svg class="icon" width="32" height="32" viewBox="0 0 32 32">
+                                        <use xlink:href="<?php echo get_template_directory_uri(); ?>/assets/icons/sprite-icons.svg#arrow-right" />
+                                    </svg>
+                                </div>
+                            </span>
                         </div>
                         <div class="sf-card-content">
                             <h3 class="text-h4"><a href="<?php the_sub_field( 'link_cardhome_1' ); ?>" title="<?php the_sub_field( 'title_cardhome_1' ); ?>"><?php the_sub_field( 'title_cardhome_1' ); ?></a></h3>

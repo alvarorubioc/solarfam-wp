@@ -12,13 +12,23 @@
 	a {
 		display: flex;
 		align-items: center;
-		@include breakpoint(tablet) { padding: .25em; }
-			padding:  $space-xxs $space-xs;
-			margin: 0 .5em;
+		margin: 0 .5em;
+		padding:  $space-xxs $space-xs;
+		@include breakpoint(tablet) {
+			padding: .25em;
+			margin: 0 1em;
+		}
 	}
 	
 	span {
-		@include breakpoint(tablet) { display:none;}
+		@include breakpoint(tablet) {display:none;}
+	}
+	.btn-contact a {
+		margin: 0 1.25em 0 0;
+		@include breakpoint(mobile) {
+			display: none;
+		}
+
 	}
 }
 
@@ -35,7 +45,9 @@
 	@include breakpoint(tablet) {
 		grid-template-columns: minmax(auto, 200px) 1fr 90px;
 		grid-template-rows: 1fr;	
-		align-items: center;
+		&>* {
+			align-self: center;
+		}
 	}
 }
 
@@ -129,10 +141,6 @@
 .toggled {
 	.menu-toggle {
 		background: $color__primary;
-		&::after {
-			content: 'Cerrar';
-			position: relative;
-		}
 	}
 	.menu-main-nav-container {
 		transform: translateX(0);
@@ -143,10 +151,6 @@
 
 .menu-toggle {
 	display: none;
-	&::after {
-		content: 'Menu';
-		position: relative;
-	}
   	@include breakpoint(tablet) {
 		display: block;
 	}

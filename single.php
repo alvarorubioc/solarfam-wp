@@ -15,28 +15,25 @@ get_header();
 	<header id="hero">
 		<div class="container">
 			<div class="row entry-title">
-				<div class="col-xs-12 col-md-8">
-					<?php solarfam_posted_in(); ?>
+				<div class="col-xs-12 col-sm-8 col-md-12">
+					<div class="mb-2"><?php solarfam_posted_in(); ?></div>
 					<h1 class="display"><?php single_post_title();?></h1>
 				</div>
 			</div>  
 		</div>	
 	</header>
-	<div class="container move-up">
+	<div class="container move-up-blog">
 		<div class="row">
 			<div class="col-xs-12 col-md-8">
+				<?php
+				while ( have_posts() ) :
+					the_post();
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+					get_template_part( 'template-parts/content', get_post_type() );
 
-			get_template_part( 'template-parts/content', get_post_type() );
-
-			the_post_navigation();
-
-		endwhile; // End of the loop.
-		?>
-		</div>
+				endwhile; // End of the loop.
+				?>
+			</div>
 			<div class="col-xs-12 col-md-3 col-md-offset-1">
 				<?php get_sidebar (); ?>	
 			</div>

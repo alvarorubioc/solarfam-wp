@@ -25,7 +25,7 @@
     background: $color__accent !important;
 }
 
-.testimonial, #sf-related-projects {  
+#sf-related-projects {  
     overflow: hidden;
     position: relative;
     min-height: 40em;
@@ -63,6 +63,21 @@
           margin-top: 8em;
         }
     }
+}
+
+.testimonial {  
+  position: relative;
+  background-color : $color__bg;
+
+  .container {
+      margin-top: 4em;
+      margin-bottom: 4em;
+
+      .col-xs-12 {
+        padding-top: 3em;
+        padding-bottom: 3em;
+      }
+  }
 }
 
 .sf-loadmore {

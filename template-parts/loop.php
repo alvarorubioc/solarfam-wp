@@ -16,6 +16,7 @@
 	</div>
 
 	<div class="sf-card-content">
+		<?php solarfam_posted_on(); ?>
 		<h2 class="text-h3"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title();?></a></h2>
         <p class="text"><?php the_excerpt() ;?></p>
 	</div>

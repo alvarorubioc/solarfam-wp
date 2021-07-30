@@ -12,17 +12,24 @@ input[type="week"],
 input[type="time"],
 input[type="datetime"],
 input[type="datetime-local"],
-input[type="color"],
-textarea {
+input[type="color"] {
 	color: $color__text-main;
 	border: 1px solid $color__bg-grey-ligth;
 	border-radius: $border__radius;
-	padding: 3px;
+	padding: 9.5px 1rem;
 	width: 100%;
 
 	&:focus {
 		color: $color__accent;
 	}
+
+	&.error {
+		border: 1px solid $color__error;
+	}
+}
+
+span.error {
+	color: $color__error;
 }
 
 input [type="checkbox"], [type="radio"] {
@@ -32,8 +39,21 @@ input [type="checkbox"], [type="radio"] {
 	height: 24px;
 	border-color: white;
 }
+
 input[type="submit"] {
 	font-size: 100%;
+}
+
+textarea {
+	color: $color__text-main;
+	border: 1px solid $color__bg-grey-ligth;
+	border-radius: 2em;
+	padding: 9.5px 1rem;
+	width: 100%;
+
+	&:focus {
+		color: $color__accent;
+	}
 }
 
 select {
@@ -64,8 +84,4 @@ span.wpcf7-not-valid-tip {
 div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 	border: 2px solid $color__warning;
 	border-radius: $space__unit;
-}
-
-span.wpcf7-list-item {
-    display: contents;
 }

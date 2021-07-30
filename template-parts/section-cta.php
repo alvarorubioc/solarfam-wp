@@ -8,8 +8,15 @@
                 </div>    
             </div>
             <div class="col-xs-12 col-md-6 col-md-offset-1">
-                <h2>Soluciones de eficiencia energética para empresas</h2>
-                <p class="big">Solicita un <strong>estudio personalizado</strong> para tu proyecto de instalación de autoconsumo fotovoltaico.</p>
+                <?php
+                    if ( is_front_page() ) {
+                        echo '<h2>Soluciones de eficiencia energética para empresas</h2>';
+
+                    } else {
+                        echo '<p class="text-h2">Soluciones de eficiencia energética para empresas</p>';
+                    }
+                ?>
+                <p class="big">Solicita un <strong>estudio gratuito* para tu proyecto</strong> de instalación de autoconsumo fotovoltaico.</p>
                 <ul class="cta-list">
                     <li>
                         <p class="text-h4">20 años de experiecia</p>
@@ -24,6 +31,7 @@
                         <p>Tasa de retorno de la inversión entre el 10-20%. Coste de producción de kWh de origen solar &lt; 3 céntimos €/kWh.</p>
                     </li>
                 </ul>
+                <p class="mt-2">*Para clientes en Navarra, Aragón, País Vasco, La Rioja y Castilla y León con un consumo igual o mayor a 2.000€ mensuales.</p>
             </div>
         </div>
 

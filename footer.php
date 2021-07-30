@@ -42,12 +42,11 @@
 			</div>	
 				
 			<div class="col-xs-12 col-md-8 end-md center-xs">
-				<?php
-					wp_nav_menu( array(
-						'theme_location' => 'footer-menu',
-						'menu_id'        => 'footer-menu',
-					) );
-				?>
+				<ul id="footer-menu">
+					<li class="ofuscado" onclick="location.href='/aviso-legal/'">Aviso Legal</li>
+					<li class="ofuscado" onclick="location.href='/politica-de-privacidad/'">Política de privacidad</li>
+					<li class="ofuscado" onclick="location.href='/politica-de-cookies/'">Cookies</li>
+				</ul>
 			</div>	
 		</div>	
 	</div><!-- .site-info -->

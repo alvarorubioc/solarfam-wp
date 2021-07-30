@@ -10,17 +10,12 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>> 
-
+	<div class="entry-meta">
+		<?php
+		solarfam_posted_on();
+		?>
+	</div><!-- .entry-meta -->
 	<div class="">
-		<?php solarfam_post_thumbnail(); ?>
-		
-		<div class="entry-meta">
-			<?php
-			solarfam_posted_on();
-			solarfam_posted_by();
-			?>
-		</div><!-- .entry-meta -->
-	<div class="entry-content">
 		<?php
 		the_content();
 

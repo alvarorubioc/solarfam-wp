@@ -3,24 +3,11 @@
     flex-direction: column;
     padding: $space__unit;
     align-items: center;
-    min-height: 100px;
+    min-height: 132px;
     justify-content: space-between;
 
     &:hover {
         border: 1px solid $color__accent;
-    }
-    &>div {
-        margin: $space__unit 0;
-    }
-    &.active {
-      border: 1px solid $color__accent;
-      position: relative;
-      &::before {
-        content: url(./assets/img/active-check.svg);
-        position: absolute;
-        right: 1rem;
-        top: 1rem;
-      }
     }
 }
 
@@ -31,14 +18,54 @@
 .number-success {
   color: #0249B3;
   margin: 1em 0;
-  font-size: 1.25em;
   text-align: center;
 }
+
+.icon-success{
+  text-align: center;
+  svg.icon {
+    fill: $color__secondary;
+  }
+} 
 
 .page-template-solarcalculator #sf-cta {
   margin-top: 0;
 }
 
+// radio inputs
+#roof-type {
+  input[type="radio"] {
+    display: none;
+    &:not(:disabled) ~ label {
+      cursor: pointer;
+    }
+    &:disabled ~ label {
+      color: hsla(150, 5%, 75%, 1);
+      border-color: hsla(150, 5%, 75%, 1);
+      box-shadow: none;
+      cursor: not-allowed;
+    }
+  }
+  label {
+    background: white;
+    font-size: 100%;
+  }
+  input[type="radio"]:checked + label {
+    border: 1px solid $color__accent;
+    position: relative;
+      &::before {
+        content: url(./assets/img/active-check.svg);
+        position: absolute;
+        right: .5rem;
+        top: .5rem;
+        background-color: white;
+        border-radius: 100%;
+      }
+  }
+  strong, img{
+    margin-top: $space__unit;
+  }
+}
 /**
 Ion.RangeSlider, 2.3.1
 © Denis Ineshin, 2010 - 2019, IonDen.com
@@ -261,4 +288,3 @@ Build date: 2019-12-19 16:51:02
     color: silver;
     font-size: 13px;
   }
- 

@@ -18,6 +18,7 @@ get_header();
 <main id="main" class="site-main">
 	<?php if ( have_posts() ) : ?>
 		<header id="hero">
+		
 			<div class="container">
 				<div class="row entry-title">
 					<div class="col-xs-12 col-md-8">
@@ -29,7 +30,7 @@ get_header();
 			</div>	
 		</header>
 		
-	<div class="container move-up">
+	<div class="container move-up-blog">
 		<div class="row">
 			<div class="col-xs-12 col-md-8">
 				<?php

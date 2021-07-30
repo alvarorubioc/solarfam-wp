@@ -4,7 +4,7 @@ const themeName = 'solarfam';
 // Gulp plugins
 const	gulp = require("gulp");
 const	plumber = require("gulp-plumber");
-const	gulpsass = require("gulp-sass");
+const   gulpsass = require('gulp-sass')(require('sass'));
 const	autoprefixer = require("gulp-autoprefixer");
 const	cleanCss = require("gulp-clean-css");
 const	sourceMaps = require("gulp-sourcemaps");
@@ -59,7 +59,10 @@ gulp.task("sass", function(){
 		.pipe(plumber({errorHandler:onError}))
 		.pipe (sourceMaps.init())
 		.pipe (gulpsass())
-		.pipe (autoprefixer("last 3 versions"))
+		.pipe(autoprefixer({
+				overrideBrowserslist: ['last 2 versions'],
+				grid: true
+			}))
 		.pipe (gulp.dest("."))
 		.pipe (cleanCss({keepSpecialComments: 1}))
 		.pipe (sourceMaps.write("."))

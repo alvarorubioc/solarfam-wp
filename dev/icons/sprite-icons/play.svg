@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>01 Fragments / Icons / 32px / Play / Dark</title>
+    <g id="01-Fragments-/-Icons-/-32px-/-Play-/-Dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="play" transform="translate(9.000000, 5.998364)" fill="#1A1A1A">
+            <path d="M2,2.83330107 L2,17.1699701 L13.1507426,10.0016356 L2,2.83330107 Z M1.54075759,0.160457093 L15.5407576,9.16045709 C16.1530808,9.55409344 16.1530808,10.4491777 15.5407576,10.842814 L1.54075759,19.842814 C0.875245955,20.270643 0,19.7928014 0,19.0016356 L0,1.00163557 C0,0.210469775 0.875245955,-0.267371816 1.54075759,0.160457093 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

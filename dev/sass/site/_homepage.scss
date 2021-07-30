@@ -12,11 +12,50 @@
   }
 }
 
+.sf-cta__hero-calcular {
+  background: $color__gradient;
+  border-radius: 1em;
+  color: white;
+  padding: $space__unit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include breakpoint(mobile) {
+    flex-direction: column;    
+  }
+
+  span {
+    margin: .5em .5em;
+    flex-basis: 33%;
+    text-align: left;
+    @include breakpoint(mobile) {
+      max-width: 180px;
+      margin: 1em .5em;
+      text-align: center;
+    }
+  }
+  
+  &>div {
+    text-align: center;
+    p { margin: 0;}
+    small {font-size: 60%;}
+  }
+}
+
 .sf-form-calcular {
   display: flex;
+
+  @include breakpoint(mobile) {
+    margin-top: 1.5em;
+  }
   
   .sf-input {
     border-radius: $space__unit 0px 0px $space__unit;
+    padding: 9.5px 0 9.5px 1em;
+    @include breakpoint(xsmobile) {
+      max-width: 120px;
+    }
   }
 
   .btn {
@@ -101,9 +140,6 @@
       font-size: 100%;
       display: inline-flex;
       align-items: center;
-      &:first-child {
-        padding-right: .5em;
-      }
     }
   }
 
@@ -113,6 +149,21 @@
     cursor: pointer;
   }
 
+}
+
+span.wpcf7-form-control.wpcf7-checkbox.wpcf7-validates-as-required.wpcf7-exclusive-checkbox {
+  display: flex;
+  @include breakpoint(mobile) {
+    display: block;
+  }
+}
+
+span.wpcf7-list-item {
+  margin: 0;
+
+  &:first-child {
+    padding-right: 1em;
+  }
 }
 
 #sf-faqs {
@@ -142,6 +193,9 @@
   }
 }
 
+.home #sf-text-services .bottom-md {
+  align-items: flex-start;
+}
 
 /* ---------------- For Animation on Scroll ---------------- */
 .slideanim {

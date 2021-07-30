@@ -1,7 +1,9 @@
 <div class="col-xs-12 col-sm-6 col-md-4 slideanim slide">
     <article id="post-<?php the_ID(); ?>" <?php post_class('sf-card'); ?>>
         <div class="sf-card-image">  
-            <?php the_post_thumbnail('img-card'); ?>
+            <span class="ofuscado" onclick="location.href='<?php the_permalink(); ?>'">
+                <?php the_post_thumbnail('img-card'); ?>
+            </span>    
         </div>
 
         <div class="sf-card-content">
